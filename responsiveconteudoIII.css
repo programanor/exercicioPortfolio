@@ -1,0 +1,13 @@
+@media(min-width:150px) and (max-width:500px){
+
+    #textoII h1{
+
+        font-size:25px;
+
+    }
+
+    #textoII p{
+        font-size:12px;
+
+    }
+}

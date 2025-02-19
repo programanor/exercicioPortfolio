@@ -1,0 +1,86 @@
+/* style responsive geral */
+
+@media(min-width:100px) and (max-width:800px){
+
+       .conteiner{
+        display:flex;
+        flex-direction:column;
+    }
+
+}
+
+/* style responsive cabeçalho */
+
+@media(min-width:970px) and (max-width:1058px){
+
+    body{
+        margin-left:5%;
+        margin-right:5%;
+    }
+
+    #menu li {
+        font-size:15px;
+        padding-left:0px;
+    }
+
+}
+@media(min-width:933px) and (max-width:970px){
+        #menu li {
+        font-size:14px;
+    }
+}
+@media(min-width:898px) and (max-width:933px){
+    #menu li {
+    font-size:12px;
+}
+}
+@media(min-width:800px) and (max-width:898px){
+    #menu li {
+    font-size:10px;
+}
+}
+@media(min-width:500px) and (max-width:800px){
+    #menu li {
+    padding-left:0px;     
+    font-size:20px;
+    margin-left:8px;
+}
+#menu{
+    text-align:center;
+}
+
+#menu a{
+    color:rgb(69, 91, 16);
+    font-weight: 600;
+    text-decoration-line: underline;
+
+}
+}
+@media(min-width:200px) and (max-width:500px){
+
+    #head{
+        text-align:center;
+        font-size:30px;
+        background-color:rgb(236, 213, 230);
+        border-radius:15px;
+    }
+
+    #menu li {
+    font-size:29px;
+    margin-left:20px;
+    
+}
+
+#menu a{
+    color:rgb(115, 8, 87);
+}
+
+#menu ul{
+    padding-left:0px;
+}
+#menu li{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+}
